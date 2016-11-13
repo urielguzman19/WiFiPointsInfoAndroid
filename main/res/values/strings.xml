@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Access Points State</string>
+    <string name="hello_world">FI Project Access Points!</string>
+    <string name="action_settings">Settings</string>
+    <string name="APs_Title">Available Access Points</string>
+    <string name="MAC_Title">Device MAC Address</string>
+    <string name="Boton_Scan">Empezar Escaneo</string>
+    <string name="Boton_Stop">Detener Escaneo</string>
+    <string name="title_activity_access_points2">Access Points State 2</string>
+
+    <string name="next_activity">Siguiente</string>
+    <string name="previous_activity">Anterior</string>
+</resources>

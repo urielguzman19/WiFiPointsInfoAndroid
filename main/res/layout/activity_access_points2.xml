@@ -1,0 +1,104 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LinearLayout1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#FFFF3C" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Boton_Scan"
+            android:id="@+id/botonStarScan"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:textSize="15dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Boton_Stop"
+            android:id="@+id/botonStopScan"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtConnected"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#7D7D7D"/>
+
+        <TextView
+            android:text="@string/APs_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_Network"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#7D7D7D"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:scrollbars="vertical"
+            android:fillViewport="true">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/txt_NetworksAvailable"
+                android:textSize="16sp"
+                android:height="200dp"
+                android:background="#4DC5FF"
+                android:textIsSelectable="true"
+                android:textStyle="normal"/>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/MAC_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_MACTitle"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#7D7D7D" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_MAC"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#7D7D7D" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/previous_activity"
+        android:id="@+id/previous_activity"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="15dp"/>
+
+
+
+</LinearLayout>
